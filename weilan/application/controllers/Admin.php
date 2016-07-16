@@ -131,7 +131,7 @@ class Admin extends CI_Controller{
 
     }
 
-    //查询全部项目信息
+    //查询全部项目信息内容
     public function get_all(){
 
         $data=$this->admin->get_all();
